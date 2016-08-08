@@ -1,0 +1,106 @@
+@font-face{
+  font-family:"Starwars" !important;
+  src:ulr('Starjedi.tff')format('truetype');
+}
+body{
+	margin: 0;
+	padding:0;
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+#bodycontent{
+	position: relative;
+	overflow: auto;
+	margin: 0;
+	padding:0;
+}
+#Container{
+	height: 100%;
+	position:fixed;
+	margin: 0;
+	padding:0;
+	width: 100%;
+	overflow: auto;
+	display: block;
+}
+#title{
+	background-color: black;
+	background-attachment: fixed;
+	background-position: top center;
+	background-size: cover;
+  overflow: hidden;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	width: 100%;
+	z-index: -2;
+}
+#titlehead{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%); /* IE 9 */
+	-webkit-transform: translate(-50%,-50%); /* Safari */
+	z-index: 0;
+}
+#WebTitle{
+  font-family:'Starwars', Fallback, sans-serif ;
+	font-size: 150px;
+	color: #ffd700 ;
+  text-align:center;
+	overflow: auto;
+	margin: 0;
+	padding:0;
+	z-index: -1;
+}
+#characterHolder{
+  position: relative;
+    display:inline-block;
+height:35em%;
+width: 100%;
+background-color: white;
+margin: 0;
+padding: 0;
+z-index:1 ;
+border:3px solid red;
+overflow:hidden;
+}
+#containsCharacter{
+  position:relative;
+display:inline-block;
+padding: 0;
+margin: 0;
+top:0%;
+left: 50%;
+width: 75%;
+transform: translate(-50%, 0%);
+-ms-transform: translate(-50%, 0%); /* IE 9 */
+-webkit-transform: translate(-50%, 0%); /* Safari */
+border:3px solid purple;
+
+}
+h2{
+  text-align:center;
+}
+.w3-container{
+  position:relative;
+  float:left;
+  float:right;
+  width:50%;
+
+
+}
+.w3-card-12{
+  position:static;
+  margin:2%;
+  padding:1%;
+  padding:5px;
+    clear:both;
+
+}
+img{
+
+}
